@@ -1,7 +1,7 @@
 ##############################################################################
-## Interval-censored linear quantile regression                              #
-## By Taehwa Choi, Seohyeon Park, Hunyong Cho and Sangbum Choi               #
-## Update: July 19, 2023                                                     #
+# Sample code for "Interval-censored linear quantile regression"             #
+# By Taehwa Choi, Seohyeon Park, Hunyong Cho and Sangbum Choi                #
+# Update: July 19, 2023                                                      #
 ##############################################################################
 # Required packages
 library(evd)
