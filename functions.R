@@ -40,7 +40,7 @@ km_ic = function(dt,
   return(dt)
 }
 
-# Weight function
+# Weight estimation
 wfunc = function(dt, 
                  tau, 
                  type, 
