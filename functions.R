@@ -77,7 +77,7 @@ icrq = function(dt,
                 tau, 
                 type, 
                 resam = rep(1, nrow(dt)), 
-                h = nrow(dt)^(-0.2))
+                h = nrow(dt)^(-1/3))
 {
   n = nrow(dt)
   delta = dt$delta; x1 = dt$x1; x2 = dt$x2; xx0 = cbind(1, x1, x2)
